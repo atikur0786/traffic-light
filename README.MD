@@ -67,10 +67,6 @@ You can easily customize the timing of each light by modifying the `duration` va
 
 This project works in all modern browsers that support ES6 JavaScript features.
 
-## License
-
-MIT
-
 ## Author
 
 Atikur Satter Mondal
