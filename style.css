@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-left: 1px solid #888888;
+  border-right: 1px solid #888888;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.traffic-light {
+  background-color: rgb(14, 13, 13);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.light {
+  width: 55px;
+  height: 56px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.flex-row {
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.active {
+  opacity: 1;
+}
+
+/* Description Styles */
+.description-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.description-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description-content {
+  line-height: 1.6;
+}
+
+.description-content p {
+  margin-bottom: 15px;
+}
+
+.description-content ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.description-content li {
+  margin-bottom: 10px;
+}
+
+.desc-light {
+  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+}
+
+.yellow-text {
+  color: #cc9900;
+}
+
+.green-text {
+  color: green;
+}
+
+.duration {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.code-note {
+  font-style: italic;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 15px;
+}
